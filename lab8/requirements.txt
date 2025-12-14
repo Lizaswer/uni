@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+taskiq
+taskiq-aio-pika
+sqlalchemy
+asyncpg
+alembic
+python-dotenv
+pydantic
