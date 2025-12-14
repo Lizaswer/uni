@@ -1,6 +1,7 @@
+from database import Address, User
 from sqlalchemy import create_engine, select
-from sqlalchemy.orm import sessionmaker, selectinload
-from database import User, Address
+from sqlalchemy.orm import selectinload, sessionmaker
+
 
 def query_related_data():
     # Подключаемся к БД

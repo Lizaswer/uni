@@ -1,7 +1,9 @@
 # main.py
 import os
-from seed_data import seed_initial_data
+
 from queries import query_related_data
+from seed_data import seed_initial_data
+
 
 def main():
     print("🚀 ЛАБОРАТОРНАЯ РАБОТА №2: SQLAlchemy и Alembic")

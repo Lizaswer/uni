@@ -1,6 +1,7 @@
+from database import Address, User
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from database import User, Address
+
 
 def seed_initial_data():
     # Создаем фабрику подключений
